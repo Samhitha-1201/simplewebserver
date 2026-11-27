@@ -1,41 +1,20 @@
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
 content = """
+<!DOCTYPE html>
 <html>
-<title>Top Software Industries</title>
+<head>
+<title>TCP/IP Protocol Suite</title>
+</head>
 <body>
-<table border="2" cellspacing="10" cellpadding="6">
-<caption>Top 5 Revenue Generating Software Companies</caption>
-<tr>
-<th>s.no</th>
-<th>companies</th>
-<th>revenue</th>
-</tr>
-<tr>
-<th>1</th>
-<th>Microsoft</th>
-<th>65 billion</th>
-</tr>
-<tr>
-<th>2</th>
-<th>Oracle</th>
-<th>29.6 billion</th>
-</tr>
-<tr>
-<th>3</th>
-<th>IBM</th>
-<th>29.1 billion</th>
-</tr>
-<tr>
-<th>4</th>
-<th>SAP</th>
-<th>6.4 billion</th>
-</tr>
-<tr>
-<th>5</th>
-<th>Symantec</th>
-<th>5.6 billion</th>
-</tr>
+<h1>List of Protocols in TCP/IP Protocol Suite</h1>
+<p><b>Register No:</b> 26017264 &nbsp; <b>Name:</b> Samhitha N</p>
+<table border="1" cellpadding="8">
+<tr><th>Layer</th><th>Protocols</th></tr>
+<tr><td>Application</td><td>HTTP, HTTPS, FTP, SMTP, POP3, IMAP, DNS, Telnet, SSH, DHCP, SNMP</td></tr>
+<tr><td>Transport</td><td>TCP, UDP, SCTP</td></tr>
+<tr><td>Internet</td><td>IP (IPv4/IPv6), ICMP, IGMP, ARP, IPsec</td></tr>
+<tr><td>Network Access</td><td>Ethernet, Wi-Fi, PPP</td></tr>
 </table>
 </body>
 </html>
